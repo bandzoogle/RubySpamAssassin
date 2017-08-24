@@ -1,4 +1,6 @@
 class SingleConnectionPool
+  require 'socket'
+
   DEFAULTS = {}
   
   def initialize(options = {})
